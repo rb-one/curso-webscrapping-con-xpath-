@@ -1,0 +1,16 @@
+{% comment %} $x('//h2[@class="headline"]/a/@href').map(x => x.value) {% endcomment %}
+links = '//h2[@class="headline"]/a/@href'
+
+
+{% comment %} titulo
+('//h1[@class="headline"]/a/text()
+ {% endcomment %}
+titulo = '//h1[@class="headline"]/a/text()''
+Resumen = '//div[@class="lead"]/p/text()'
+Cuerpo =  '//div[@class="articleWrapper  "]/p[not(@class)]/text()'
+
+
+
+Subtitle = //div[@class="row"]/header/span[@class="subheadline"]/text()
+Body = //div[@id="article-content"]/div[@class="row pb-content-type-text"]//p/text()
+
